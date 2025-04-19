@@ -13,25 +13,25 @@ export default function TabLayout() {
     }>
         <Tabs.Screen name="mytrip"
         options={{
-          tabBarLabel:"Planlarım",
+          tabBarLabel:"My Trips",
           tabBarIcon:({color})=> <Ionicons name="location" size={24} color={color}/>
         }}
         />
         <Tabs.Screen name="discover"
          options={{
-          tabBarLabel:"Keşfet",
+          tabBarLabel:"Discover",
           tabBarIcon:({color})=> <Ionicons name="globe-sharp" size={24} color={color} />
         }}
         />
         <Tabs.Screen name="profile"
          options={{
-          tabBarLabel:"Profil",
+          tabBarLabel:"Profile",
           tabBarIcon:({color})=> <Ionicons name="people-circle" size={24} color={color}/>
         }}/>
 
         <Tabs.Screen name="chat"
          options={{
-          tabBarLabel:"Sohbet",
+          tabBarLabel:"Chat",
           tabBarIcon:({color})=> <Ionicons name="people-circle" size={24} color={color}/>
         }}/>
       

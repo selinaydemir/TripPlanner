@@ -16,7 +16,7 @@ export default function SearchPlace() {
     navigation.setOptions({
       headerShown: true,
       headerTransparent: true,
-      headerTitle: "Nereye gitmek istiyorsun?",
+      headerTitle: "Search?",
     });
   }, []);
 useEffect(()=>{
@@ -35,7 +35,7 @@ console.log(tripData);
     >
       
       <GooglePlacesAutocomplete
-      placeholder='örn:İspanya'
+      placeholder='örn:Spain'
       fetchDetails={true}
       onPress={(data, details = null) => {
         // 'details' is provided when fetchDetails = true

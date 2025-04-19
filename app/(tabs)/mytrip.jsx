@@ -28,7 +28,7 @@ export default function MyTrip() {
           style={{
             fontFamily: 'outfit-bold',
             fontSize: 35,
-          }} > Planlarım </Text>
+          }} > My Trips </Text>
         <Ionicons name="add-circle" size={50} color="black" />
       </View>
       {userTrips?.length === 0?

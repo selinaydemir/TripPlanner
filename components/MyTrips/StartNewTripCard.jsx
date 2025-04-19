@@ -20,14 +20,14 @@ export default function StartNewTripCard() {
       <Text style={{
         fontSize:20,
         fontFamily:'outfit-medium'
-      }}> Seyahat planı yok
+      }}> No Trips Planned Yet
       </Text>
       <Text style={{
         fontSize:16,
         fontFamily:'outfit',
         textAlign:'center',
         color:Colors.GRAY
-      }}>Yeni bir seyahat planlamanın tam vakti. Haydi başlayalım!</Text>
+      }}>Looks like time to plan a new travel experience! Get started below</Text>
      <TouchableOpacity 
       onPress={()=>router.push('/create-trip/search-place')}
       style={{
@@ -41,7 +41,7 @@ export default function StartNewTripCard() {
           fontFamily:'outfit-medium',
           fontSize:14
         }}>
-          Yeni plan oluştur
+          Start New Trip
         </Text>
       </TouchableOpacity>
     

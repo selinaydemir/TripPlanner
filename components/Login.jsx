@@ -21,7 +21,7 @@ export default function Login() {
                     fontFamily: 'outfit-bold',
                     textAlign: 'center',
                     marginTop: 15
-                }}> Hayallerindeki tatil planını yaratmaya hazır mısın? </Text>
+                }}> Are you ready to create the trip plan of your dreams? </Text>
 
 
                 <TouchableOpacity style={styles.button}
@@ -33,7 +33,7 @@ export default function Login() {
                         fontFamily: 'outfit-bold',
                         fontSize: 17
 
-                    }}>   HAYDİ BAŞLAYALIM   </Text>
+                    }}>  Let's get started </Text>
                     <Ionicons name="rocket-outline" size={24} color="white" />
 
                 </TouchableOpacity>

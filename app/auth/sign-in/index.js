@@ -67,7 +67,7 @@ export default function SignIn() {
         fontSize: 30,
         color: Colors.GRAY,
         marginTop: 70
-      }}>Tekrar Hoşgeldin      
+      }}> Welcome Back     
       
       <Ionicons name="happy-outline" size={30} color="gray" />
        </Text>
@@ -79,7 +79,7 @@ export default function SignIn() {
         fontFamily: 'outfit-bold',
         fontSize: 30,
         marginTop:60
-      }}>GİRİŞ YAP </Text>
+      }}> SIGN IN </Text>
       
      
 
@@ -94,7 +94,7 @@ export default function SignIn() {
         <TextInput
           style={styles.input}
           onChangeText={(value)=>setEmail(value)}
-          placeholder='E-mail adresinizi giriniz.' />
+          placeholder='Enter email.' />
 
       </View>
 
@@ -126,7 +126,7 @@ export default function SignIn() {
           textAlign: 'center',
 
         }}>
-          Giriş Yap
+          Sign in
         </Text>
 
       </TouchableOpacity>
@@ -146,7 +146,7 @@ export default function SignIn() {
           textAlign: 'center',
           
         }}>
-          Hesap oluştur
+          Create Account
         </Text>
 
       </TouchableOpacity>
